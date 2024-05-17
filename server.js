@@ -8,7 +8,7 @@ const cors = require('cors');
 const app = express();
 app.use(bodyParser.json());
 
-mongoose.connect('mongodb+srv://sosnyukk:zuvove92@cluster0.9kyeons.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
+mongoose.connect('mongodb+srv://sosnyukk:123@cluster0.9kyeons.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 }).then(() => console.log("MongoDB connected"))
