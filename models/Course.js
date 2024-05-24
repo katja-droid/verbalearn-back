@@ -7,8 +7,6 @@ const questionSchema = new Schema({
   question: { type: String, required: true },
   options: [{ type: String }],  // Only relevant for multiple choice questions
   correctAnswer: { type: String, required: true },
-  answered: { type: Boolean, required: true },
-  correct: { type: Boolean, required: true }
 });
 
 // Define the schema for the topics
