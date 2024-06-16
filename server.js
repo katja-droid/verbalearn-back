@@ -15,7 +15,7 @@ mongoose.connect('mongodb+srv://sosnyukk:zuvove92@cluster0.9kyeons.mongodb.net/?
   .catch(err => console.log(err));
 // Setup CORS middleware
 const corsOptions = {
-  origin: ['http://localhost:3000', 'https://verbalearn-diploma-project.netlify.app'], // Allow requests from these origins
+  origin: ['http://localhost:3000', 'https://verbalearn-diploma-project.netlify.app', 'https://main--verbalearn-diploma-project.netlify.app'], // Allow requests from these origins
   optionsSuccessStatus: 200, // Some legacy browsers (IE11, various SmartTVs) choke on 204
   credentials: true 
 };
